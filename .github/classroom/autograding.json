@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Test 1",
+      "setup": "javac Ternary.java",
+      "run": "java Ternary",
+      "input": "85\r\napple\r\ndog\r\n31\r\n28",
+      "output": "Letter grade: B\r\napple, dog\r\n31 is odd\r\n28 is even\r\n31 is greater than 28",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Test 2",
+      "setup": "javac Ternary.java",
+      "run": "java Ternary",
+      "input": "75\r\ndog\r\napple\r\n28\r\n31",
+      "output": "Letter grade: C\r\napple, dog\r\n28 is even\r\n31 is odd\r\n28 is less than 31",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Test 2",
+      "setup": "javac Ternary.java",
+      "run": "java Ternary",
+      "input": "70\r\ndog\r\ndog\r\n13\r\n13",
+      "output": "Letter grade: D\r\ndog, dog\r\n13 is odd\r\n13 is odd\r\n13 is equal to 13",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
