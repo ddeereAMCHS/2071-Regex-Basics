@@ -2,30 +2,10 @@
   "tests": [
     {
       "name": "Test 1",
-      "setup": "javac Ternary.java",
-      "run": "java Ternary",
-      "input": "85\r\napple\r\ndog\r\n31\r\n28",
-      "output": "Letter grade: B\r\napple, dog\r\n31 is odd\r\n28 is even\r\n31 is greater than 28",
-      "comparison": "included",
-      "timeout": 10,
-      "points": null
-    },
-    {
-      "name": "Test 2",
-      "setup": "javac Ternary.java",
-      "run": "java Ternary",
-      "input": "75\r\ndog\r\napple\r\n28\r\n31",
-      "output": "Letter grade: C\r\napple, dog\r\n28 is even\r\n31 is odd\r\n28 is less than 31",
-      "comparison": "included",
-      "timeout": 10,
-      "points": null
-    },
-    {
-      "name": "Test 2",
-      "setup": "javac Ternary.java",
-      "run": "java Ternary",
-      "input": "70\r\ndog\r\ndog\r\n13\r\n13",
-      "output": "Letter grade: D\r\ndog, dog\r\n13 is odd\r\n13 is odd\r\n13 is equal to 13",
+      "setup": "javac RegexBasics.java",
+      "run": "java RegexBasics",
+      "input": "hex1.txt\r\nphone1.txt\r\nemail1.txt",
+      "output": "AABBCC is a valid hex color code\r\nZZ9900 is not a valid hex color code\r\n001122 is a valid hex color code\r\n00HH33 is not a valid hex color code\r\nAA99FF is a valid hex color code\r\n123456 is a valid hex color code\r\n#$!@%& is not a valid hex color code\r\nABCDEF is a valid hex color code\r\nABCDHH is not a valid hex color code\r\nABCDE is not a valid hex color code\r\n0-1+2/ is not a valid hex color code\r\n\r\n(123) 456-7890 is a valid phone number\r\n123 456 7890 is not a valid phone number\r\n(123) 45-7890 is not a valid phone number\r\n1234567890 is a valid phone number\r\n123456789 is not a valid phone number\r\n(123) 456 7890 is not a valid phone number\r\n123-456-7890 is a valid phone number\r\n23-456-7890 is not a valid phone number\r\n123-4456-7890 is not a valid phone number\r\n\r\nabcdef@abc.com is a valid email address\r\nabc!@#abc.d is not a valid email address\r\n#$%@abc.com is not a valid email address\r\nfedcba@fed.org is a valid email address\r\nabcdef@&*().com is not a valid email address\r\nabcdef@abc.123 is not a valid email address\r\nmail@mail.mail is a valid email address",
       "comparison": "included",
       "timeout": 10,
       "points": null
