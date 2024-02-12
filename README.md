@@ -1,6 +1,6 @@
 # Regex Basics
 
-## Due: Tue 2/21 at 11:59 PM
+## Due: Fri 2/16 at 11:59 PM
 
 - Create a program called `RegexBasics.java`
 - Prompt the user for a filename containing hexadecimal color codes
